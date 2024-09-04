@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+  <title>Baby Steps Beyond the Horizon</title>
+  <link rel="stylesheet" href="build/stylesheets/main.css">
+  <link rel="stylesheet" href="build/stylesheets/calendar_html.css">
+  <link rel="stylesheet" href="build/stylesheets/header.css">
+  <link rel="stylesheet" href="build/stylesheets/programme.css">
+  <link rel="icon" href="logo_small.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+  <script src="src/scripts/calendar.js"></script>
+  <script src="src/scripts/menu_handler.js"></script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+  <meta charset="UTF-8" />
+
+</head>
+
+<body>
+  <div class="holder">
+
+    <div class="main_header">
+
+      <div class="main_title">
+        BABY STEPS
+      </div>
+      <div class="subtitle">
+        beyond the horizon
+      </div>
+      
+    </div>
+
+    <div class="navigation">
+
+      <div class="logo">
+        <div class="logo_image"></div>
+        2-6 Sep. 2024
+      </div>
+
+      <div class="button_holder" id="btn-holder">
+        <input type="button" value="Home" onclick="location.href='index.html';" class="active" id="0">
+        <input type="button" value="Poster" id="1">
+        <input type="button" value="Registration" id="2">
+        <input type="button" value="Committee" id="3">
+        <input type="button" value="Programme" onclick="location.href='programme.html';" id="4">
+        <input type="button" value="Speakers" id="5">
+        <input type="button" value="Participants" id="6">
+    
+
+        <div class="dropdown" id='dropdown'>
+          <input type="button" value="More" id='more'>
+          <div class="dropdown-content" id='dropdown-content'>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="main_text">
+
+  <table style="margin-left: auto; margin-right:auto; align: center; width: 80%; min-width: 300px; border: none; table-layout: fixed; font-family: "Bitter";">
+    <colgroup>
+      <col style="width: 105px;" />
+      <col style="width: calc(0.5 * (100% - 100px));" />
+      <col style="width: calc(0.5 * (100% - 100px));" />
+    </colgroup>
+
+        {% for d in days %}
+        <tr style="height: 45px;"><td style="text-align:center; vertical-align: bottom; font-size: 19;" colspan="2">
+            <b>{{ d.day }}</b>
+          </td>
+        </tr>
+          {% for a in d.activities %}
+            <tr>
+              <td> {{ a.time }} </td>
+                {% if "description" in a %}
+                <td colspan="2">{{ a.description }} </td>
+               
+                {% elif "title" in a %}
+                <td colspan="2">
+                <b>{{ a.title }} 
+                  {% if a.slides != "" %} 
+                  <a href="{{ a.slides }}" target="_blank">[slides]</a> 
+                  {% endif %}
+                <br />
+                    <span class="author">{{ a.author }}</span> </b>
+                </td>
+
+                {% elif "studentA" in a %}
+                <td>
+                  <b>
+                  <span class="classroom">room A</span><br />
+                    {{ a.studentA.title }}</b> <br />
+                    {{ a.studentA.name }} (<i>{{ a.studentA.aff }}</i>)
+                  <br />
+                </td>
+
+                <td>
+                  <b>
+                  <span class="classroom">room C: </span><br />
+                    {{ a.studentC.title }}</b> <br /> 
+                    {{ a.studentC.name }} (<i>{{ a.studentC.aff }}</i>)
+                </td>
+
+                {% endif %}
+            </tr>
+          {% endfor %}
+        {% endfor %}
+      </table>
+  
+    </div>
+    <footer>
+      <img src="img/impan-logo.svg">
+      <img src="img/ptm-logo.png">
+      <img src="img/uwr-logo.svg">
+    </footer>
+  </div>
+
+</body>

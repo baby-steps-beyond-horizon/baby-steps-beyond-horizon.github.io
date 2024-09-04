@@ -1,0 +1,10 @@
+@use 'colors';
+@use 'fonts';
+
+.author {
+  color: colors.$red;
+}
+
+.classroom {
+  color: colors.$blue;
+}

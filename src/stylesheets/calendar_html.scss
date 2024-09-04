@@ -1,0 +1,108 @@
+@use 'colors';
+@use 'fonts';
+
+.calendar {
+  width: 300px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 50px;
+}
+
+.calendar > table {
+  font-family: "Bitter";
+
+  align: center;
+  text-align: center;
+  color: colors.$dark_blue;
+}
+
+.month {
+  font-family: "Archivo Black";
+  
+  font-size: 20px;
+  color: colors.$dark;
+
+  padding-bottom: 10px;
+}
+
+
+.act-weekend {
+  font-weight: 600;
+  background-color: colors.$red;
+  color: colors.$light;
+}
+
+.act {
+  background-color: colors.$orange;
+  // border-radius: 30px;
+  color: colors.$light;
+  font-weight: 600;
+}
+
+.act:hover, .act-weekend:hover{
+  font-weight: 1000;
+  cursor: pointer;
+}
+
+.weekend {
+  font-weight: 600;
+  color: colors.$dark_red;
+}
+
+.prev { 
+  color: colors.$light_blue;
+}
+
+.prev-weekend { 
+  color: colors.$light_blue;
+}
+
+.week-th {
+  color: colors.$red;
+}
+
+.arrows {
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.arrows:hover {
+  color: colors.$red;
+  cursor: pointer;
+}
+
+.date-info {
+  margin-top: 20px; 
+  gap: 10px; 
+  font-family:'Bitter'; 
+  font-size: 17px; 
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inter  {
+  cursor: help;
+
+  font-weight: 800;
+  background-color: colors.$blue;
+  color: colors.$light;
+}
+
+.inter.act {
+  cursor: help;
+
+  font-weight: 800;
+  background-color: colors.$blue;
+  color: colors.$yellow;
+}
+
+.inter.act-weekend {
+  cursor: help;
+  font-weight: 800;
+  background-color: colors.$dark_blue;
+  color: colors.$yellow;
+}

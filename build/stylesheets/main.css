@@ -1,0 +1,73 @@
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Dosis;
+  src: url(Dosis/Dosis.ttf);
+}
+@font-face {
+  font-family: Bitter;
+  src: url(Bitter/Bitter_Variable.ttf);
+}
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  background-color: #fbe8da;
+}
+
+tr {
+  height: 40px;
+}
+
+.holder {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #bdcbe1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer > img {
+  height: 80px;
+}
+
+.main_text {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-bottom: 160px;
+}
+
+p {
+  font-family: "Bitter";
+  font-size: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #4b4e61;
+}
+
+a {
+  color: #7e91b1;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

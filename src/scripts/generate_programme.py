@@ -58,3 +58,18 @@ with open("src/scripts/calendar.js", "w") as f:
 
 with open("index.html", mode="w", encoding="utf-8") as m:
     m.write(cnt)
+
+config_file = open('data/configure.json')
+config_json = json.load(config_file)
+template = environment.get_template("committee.html")
+
+cnt = template.render(scientific=config_json['scientific committee'], organizing=config_json['organizing committee'])
+
+with open("committee.html", mode="w", encoding="utf-8") as m:
+    m.write(cnt)
+
+template = environment.get_template("registration.html")
+cnt = template.render(registration=config_json['registration form'])
+
+with open("registration.html", mode="w", encoding="utf-8") as m:
+    m.write(cnt)

@@ -5,6 +5,13 @@ html {
   height: 100%;
 }
 
+h2 {
+  color: colors.$dark;
+  font-weight:600;
+  font-family: Bitter;
+  line-height: 1.5;
+}
+
 body {
   padding: 0px;
   margin: 0px;

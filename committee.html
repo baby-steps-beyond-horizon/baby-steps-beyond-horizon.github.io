@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+  <title>Baby Steps Beyond the Horizon</title>
+  <link rel="stylesheet" href="build/stylesheets/main.css">
+  <link rel="stylesheet" href="build/stylesheets/calendar_html.css">
+  <link rel="stylesheet" href="build/stylesheets/header.css">
+  <link rel="icon" href="logo_small.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+  <script src="src/scripts/calendar.js"></script>
+  <script src="src/scripts/menu_handler.js"></script>
+
+  <meta charset="UTF-8" />
+</head>
+
+<body onload="print_calendar(0)">
+  <div class="holder">
+
+    <div class="main_header">
+
+      <div class="main_title">
+        BABY STEPS
+      </div>
+      <div class="subtitle">
+        beyond the horizon
+      </div>
+      
+    </div>
+
+    <div class="navigation">
+
+      <div class="logo">
+        <div class="logo_image"></div>
+        2-6 Sep. 2024
+      </div>
+
+      <div class="button_holder" id="btn-holder">
+        <input type="button" value="Home" onclick="location.href='index.html';" style="width: 85px;" id="0">
+        <input type="button" value="Poster" onclick="location.href='poster.html';" id="1" style="width:90px;">
+        <input type="button" value="Registration" onclick="location.href='registration.html';" id="2" style="width:140px;">
+        <input type="button" value="Committee" id="3" style="width: 130px;" onclick="location.href='committee.html';" class="active">
+        <input type="button" value="Programme" onclick="location.href='programme.html';" id="4" style="width: 135px;">
+        <input type="button" value="Speakers" id="5" style="width: 115px;">
+        <input type="button" value="Participants" id="6" style="width: 140px;">
+    
+
+        <div class="dropdown" id='dropdown'>
+          <input type="button" value="More" id='more'>
+          <div class="dropdown-content" id='dropdown-content'>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+<style>
+a { 
+  font-weight: 400;
+}
+</style>
+
+    <div class="main_text">
+      <h2>Scientific Committe</h2>
+      
+      <p>Ewa Damek <a href="mailto:ewa.damek@uwr.edu.pl">(ewa.damek@uwr.edu.pl)</a></p>
+      
+      <p>Piotr M. Hajac <a href="mailto:pmh@impan.pl">(pmh@impan.pl)</a></p>
+      
+      <p>Jacek Miękisz <a href="mailto:miekisz@mimuw.edu.pl">(miekisz@mimuw.edu.pl)</a></p>
+      
+      
+      <h2>Organizing Committe</h2>
+      
+      <p>Ewa Damek <a href="mailto:ewa.damek@uwr.edu.pl">(ewa.damek@uwr.edu.pl)</a><br /></p>
+      
+      <p>Piotr M. Hajac <a href="mailto:pmh@impan.pl">(pmh@impan.pl)</a><br /></p>
+      
+      <p>Jacek Miękisz <a href="mailto:miekisz@mimuw.edu.pl">(miekisz@mimuw.edu.pl)</a><br /></p>
+      
+      <p>Adam Wegert <a href="mailto:a_wegert@o2.pl">(a_wegert@o2.pl)</a><br /></p>
+      
+      <p>Weronika Jakimowicz <a href="mailto:330006@uwr.edu.pl">(330006@uwr.edu.pl)</a><br /></p>
+      
+      <p>Monika Brattig <a href="mailto:345051@uwr.edu.pl">(345051@uwr.edu.pl)</a><br /></p>
+      
+      <p>Michał Mądrala <a href="mailto:338439@uwr.edu.pl">(338439@uwr.edu.pl)</a><br /></p>
+      
+      <p>Krzysztof Szymański <a href="mailto:338068@uwr.edu.pl">(338068@uwr.edu.pl)</a><br /></p>
+      
+      <p>Maciej Frącek <a href="mailto:339724@uwr.edu.pl">(339724@uwr.edu.pl)</a><br /></p>
+      
+      <p>Jakub Krzysztoń <a href="mailto:314768@uwr.edu.pl">(314768@uwr.edu.pl)</a><br /></p>
+      
+    </div>
+    <footer>
+      <img src="img/impan-logo.svg">
+      <img src="img/ptm-logo.png">
+      <img src="img/uwr-logo.svg">
+    </footer>
+  </div>
+
+</body>

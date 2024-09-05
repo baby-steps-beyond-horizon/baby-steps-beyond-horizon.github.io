@@ -7,6 +7,11 @@ jobs:
     permissions:
       issues: write
     steps:
+      - name: github setup
+        run: |
+          git config --global user.email "building@build.com" 
+          git config --global user.name "builder"
+
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content
 
@@ -22,11 +27,6 @@ jobs:
 
       - name: execute py script # run main.py
         run: python src/scripts/generate_html.py 
-
-      - name: github setup
-        run: |
-          git config --global user.email "building@build.com" 
-          git config --global user.name "builder"
 
       - uses: actions/checkout@v3
         with:

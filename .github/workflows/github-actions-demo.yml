@@ -26,17 +26,18 @@ jobs:
           pip install -r requirements.txt
 
       - name: execute py script # run main.py
-        run: python src/scripts/generate_html.py 
+        run: | 
+          python src/scripts/generate_html.py 
+          git add -A
+          git commit -m "pushing build results"
+          git push
 
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.WORKFLOW_OVERWRITE_TOKEN }}
 
-      - name: git setup
-        run : |
-          git add -A
-          git commit -m "pushing build results"
-          git push
+      # - name: git setup
+      #   run : |
       # - name: switching from HTTPS to SSH
       #   run: git remote set-url origin ${{ secrets.ssh }}
       # - name: check for changes

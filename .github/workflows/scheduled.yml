@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} fetching!
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: '26 * * * *'
 jobs:
@@ -23,8 +23,6 @@ jobs:
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.WORKFLOW_OVERWRITE_TOKEN }}
-
-
       - name: setup python
         uses: actions/setup-python@v4
         with:

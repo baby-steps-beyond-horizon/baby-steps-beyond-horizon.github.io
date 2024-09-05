@@ -1,4 +1,9 @@
+name: Scheduled data fetching
+run-name: ${{ github.actor }} fetching!
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '26 * * * *'
 jobs:

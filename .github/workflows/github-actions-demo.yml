@@ -4,6 +4,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content

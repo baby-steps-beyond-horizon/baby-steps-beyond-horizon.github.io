@@ -12,27 +12,34 @@
   font-family: Bitter;
   src: url(Bitter/Bitter_Variable.ttf);
 }
-.author {
-  color: #b45d61;
+ol {
+  list-style: none;
+  counter-reset: li;
 }
 
-.classroom {
-  color: #7e91b1;
-}
-
-td {
-  vertical-align: top;
+li {
   font-size: 17;
-  height: 35px;
+  line-height: 2;
   font-family: Bitter;
   color: #4b4e61;
+  font-weight: 500;
 }
 
-.abstract {
-  font-size: 13px;
-  text-align: justify;
-  text-justify: inter-word;
+li:before {
+  content: counter(li);
+  color: #b45d61;
+  display: inline-block;
+  width: 2em;
+  margin-left: -1em;
+}
+
+li {
+  counter-increment: li;
+}
+
+li > i {
+  font-weight: 400;
   color: #596e7f;
 }
 
-/*# sourceMappingURL=programme.css.map */
+/*# sourceMappingURL=participants.css.map */

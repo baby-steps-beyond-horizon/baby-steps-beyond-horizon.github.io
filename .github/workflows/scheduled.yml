@@ -1,0 +1,40 @@
+on:
+  schedule:
+    - cron: '0 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: github setup
+        run: |
+          git config --global user.email "building@build.com" 
+          git config --global user.name "builder"
+
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content
+      
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.WORKFLOW_OVERWRITE_TOKEN }}
+
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' # install the python version needed
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: execute py script # run main.py
+        run: | 
+          python src/scripts/update_participants.py
+          git add -A
+          git commit -m "getting participants"
+          git push
+
+

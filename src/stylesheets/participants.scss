@@ -1,0 +1,32 @@
+@use 'colors';
+@use 'fonts';
+
+ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+li {
+  font-size:17;
+  line-height: 2;
+  font-family: Bitter;
+  color: colors.$dark;
+
+  font-weight: 500;
+}
+
+li:before {
+  content: counter(li);
+  color: colors.$red;
+  display: inline-block; 
+  width: 2em;
+  margin-left: -1em;
+}
+li {
+  counter-increment: li;
+}
+
+li > i {
+  font-weight: 400;
+  color: colors.$dark_blue;
+}

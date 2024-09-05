@@ -14,10 +14,13 @@ td {
   font-size:17;
   height: 35px;
   font-family: Bitter;
+
+  color: colors.$dark;
 }
 
 .abstract {
   font-size: 13px;
   text-align: justify;
   text-justify: inter-word;
+  color: colors.$dark_blue;
 }

@@ -5,4 +5,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: src/scripts/generator.py
+      - run: src/scripts/generate_html.py

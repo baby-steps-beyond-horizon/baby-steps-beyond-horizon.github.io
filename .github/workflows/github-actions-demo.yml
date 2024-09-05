@@ -32,10 +32,11 @@ jobs:
 
       - name: execute py script # run main.py
         run: | 
-          python src/scripts/generate_html.py 
-          git add -A
-          git commit -m "pushing build results"
-          git push
+          python src/scripts/generate_html.py
+          ./git_if_changes.sh
+          # git add -A
+          # git commit -m "pushing build results"
+          # git push
 
       # - name: git setup
       #   run : |

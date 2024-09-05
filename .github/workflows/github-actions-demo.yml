@@ -21,5 +21,8 @@ jobs:
       - name: execute py script # run main.py
         run: python src/scripts/generate_html.py
 
+      - name: git setup
+        run : git config --global user.email "building@build.com" && git config --global user.name "builder"
+
       - name: pushing
         run: git add -A && git commit -m "pushing build results" && git push

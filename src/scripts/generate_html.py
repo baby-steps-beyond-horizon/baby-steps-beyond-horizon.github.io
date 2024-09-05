@@ -12,8 +12,6 @@ cnt = template.render(days=txt)
 with open("programme.html", mode="w", encoding="utf-8") as m:
     m.write(cnt)
 
-f.close()
-
 print("programme.html generated")
 
 dates_file = open('data/important_dates.json')

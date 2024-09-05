@@ -98,52 +98,12 @@
             </tr>
           </table>
 
-          
+          {% for d in days %}
 
-          <div id="c1" class="date-info" style="display: none;">
-            <div><b>23.8.2024</b></div> <div style="width: 230px;">last day for registering posters</div>
+          <div id="{{ d.id }}" class="date-info" style="display: none;">
+            <div><b>{{ d.day }}</b></div> <div style="width: 230px;">{{ d.description }}</div>
           </div>
-          
-
-          <div id="c2" class="date-info" style="display: none;">
-            <div><b>28.8.2024</b></div> <div style="width: 230px;">last day for registering student talks</div>
-          </div>
-          
-
-          <div id="c3" class="date-info" style="display: none;">
-            <div><b>1.9.2024</b></div> <div style="width: 230px;">bus to Będlewo departs at 17:30 from Dworzec Letni in Poznań</div>
-          </div>
-          
-
-          <div id="c4" class="date-info" style="display: none;">
-            <div><b>2.9.2024</b></div> <div style="width: 230px;">conference</div>
-          </div>
-          
-
-          <div id="c5" class="date-info" style="display: none;">
-            <div><b>3.9.2024</b></div> <div style="width: 230px;">conference</div>
-          </div>
-          
-
-          <div id="c6" class="date-info" style="display: none;">
-            <div><b>4.9.2024</b></div> <div style="width: 230px;">conference</div>
-          </div>
-          
-
-          <div id="c7" class="date-info" style="display: none;">
-            <div><b>5.9.2024</b></div> <div style="width: 230px;">conference</div>
-          </div>
-          
-
-          <div id="c8" class="date-info" style="display: none;">
-            <div><b>6.9.2024</b></div> <div style="width: 230px;">conference</div>
-          </div>
-          
-
-          <div id="c9" class="date-info" style="display: none;">
-            <div><b>7.9.2024</b></div> <div style="width: 230px;">bus from Będlewo to Poznań departs at 10:00</div>
-          </div>
-          
+          {% endfor %}
         </div>
       </div>
     

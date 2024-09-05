@@ -100,12 +100,12 @@
   position: absolute;
   right: 0px;
   background-color: #4b4e61;
-  width: 150px;
+  width: 140px;
   z-index: 1;
 }
 
 .dropdown-content > input {
-  width: 150px;
+  width: 140px !important;
 }
 
 .dropdown:hover .dropdown-content {

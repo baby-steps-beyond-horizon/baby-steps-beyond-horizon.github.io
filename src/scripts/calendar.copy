@@ -1,7 +1,7 @@
-const interesting_dates = [new Date(2024, 7, 23), new Date(2024, 7, 28), new Date(2024, 8, 1), new Date(2024, 8, 2), new Date(2024, 8, 3), new Date(2024, 8, 4), new Date(2024, 8, 5), new Date(2024, 8, 6), new Date(2024, 8, 7)];
+const interesting_dates = [new Date(2024, 7, 23), new Date(2024, 7, 28), new Date(2024, 8, 1), new Date(2024, 8, 1), new Date(2024, 8, 3)];
 
 const firstDateOfMonth = (date = new Date()) =>
-   new Date(date.getFullYear(), date.getMonth(), 1);
+  new Date(date.getFullYear(), date.getMonth(), 1);
 
 const lastDateOfPrev = (date = new Date()) =>
   new Date(date.getFullYear(), date.getMonth(), 0);

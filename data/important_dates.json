@@ -1,0 +1,38 @@
+[
+  {
+    "date" : [2024, 7, 23], 
+    "description" : "last day for registering posters"
+  }, 
+  {
+    "date" : [2024, 7, 28], 
+    "description" : "last day for registering student talks"
+  }, 
+  {
+    "date" : [2024, 8, 1], 
+    "description" : "bus to Będlewo departs at 17:30 from Dworzec Letni in Poznań"
+  }, 
+  {
+    "date" : [2024, 8, 2], 
+    "description" : "conference"
+  }, 
+  {
+    "date" : [2024, 8, 3], 
+    "description" : "conference"
+  }, 
+  {
+    "date" : [2024, 8, 4], 
+    "description" : "conference"
+  }, 
+  {
+    "date" : [2024, 8, 5], 
+    "description" : "conference"
+  }, 
+  {
+    "date" : [2024, 8, 6], 
+    "description" : "conference"
+  }, 
+  {
+    "date" : [2024, 8, 7], 
+    "description" : "bus from Będlewo to Poznań departs at 10:00"
+  }
+]

@@ -85,7 +85,66 @@
         "time": "11:30-10:30",
         "title": "Rigidity of convex surfaces in space forms",
         "author": "Francesco Bonsante",
+        "slides": "https://drive.google.com/file/d/1YGHiWtbtwA4O46ISJYEur3EHwx_lcgdc/view?usp=sharing"
+      },
+      {
+        "time": "13:00-14:00",
+        "description": "Lunch"
+      },
+      {
+        "time": "14:15-14:35",
+        "studentA": {"name": "Patryk Rutkowski", "aff": "University of Warsaw", "title": "Wiązka styczna i kostyczna do grupy Liego"},
+        "studentC": {"name": "Monika Brattig", "aff": "University of Wrocław", "title": "Wrocławski akcent teorii zbiorów"}
+      },
+      {
+        "time": "14:45-15:05",
+        "studentA": {"name": "Adrian Bętkowski", "aff": "University of Wrocław", "title": "Beyond Ordinary Calculus - Fractional Order Operators"},
+        "studentC": {"name": "Łukasz Orski", "aff": "Jagiellonian University", "title": "Ułamkowa Transformacja Fouriera"}
+      },
+      {
+        "time": "15:15-15:45",
+        "description": "Coffee break"
+      },
+      {
+        "time": "15:45-16:45",
+        "studentA": {"name": "Gabriel Antas", "aff": "University of Warsaw", "title": "Jak połączyć topologię i maszynę do robienia cukierków, czyli o przekształceniach pseudo-Anosova"},
+        "studentC": {"name": "Valeriya Kotelnikova", "aff": "University of California, Irvine", "title": "What are random recursive trees and what do we know about them?"}
+      },
+      {
+        "time": "17:00-18:00",
+        "title": "Symmetries in Physics",
+        "author": "Krzysztof Meissner",
         "slides": ""
+      },
+      {
+        "time": "18:30-19:30",
+        "description": "Dinner"
+      }
+    ]
+  },
+  {
+    "day": "Wednesday 4 September",
+    "activities":
+    [
+      {
+        "time": "08:30-09:00",
+        "description": "Breakfast"
+      },
+      {
+        "time": "09:30-10:30",
+        "title": "A beautiful world beyond hyperbolic geometry: Anosov representations and higher Teichmüller spaces",
+        "author": "Anna Wienhard",
+        "slides": ""
+      },
+      {
+        "time": "10:45-11:45",
+        "description": "Coffee break"
+      },
+      {
+        "time": "11:30-10:30",
+        "title": "Decompositions and secant varieties",
+        "author": "Jarosław Buczyński",
+        "slides": "https://drive.google.com/file/d/13mZ6TmlN7WQBpQNlijAEH95D3zDKIP1y/view?usp=sharing"
       },
       {
         "time": "13:00-14:00",
@@ -93,8 +152,8 @@
       },
       {
         "time": "14:15-15:15",
-        "studentA": {"name": "Patryk Rutkowski", "aff": "University of Warsaw", "title": "Wiązka styczna i kostyczna do grupy Liego"},
-        "studentC": {"name": "Monika Brattig", "aff": "University of Wrocław", "title": "Wrocławski akcent teorii zbiorów"}
+        "studentA": {"name": "Maksymilian Wesoły", "aff": "University of Warsaw", "title": "Grupa latarnika z wielkiej odległości, czyli krótki wstęp do wymiaru asymptotycznego"},
+        "studentC": {"name": "Natalia Jeszka", "aff": "University of Wrocław", "title": "Chodzenie po drzewach pętlowych"}
       },
       {
         "time": "15:15-15:45",
@@ -107,13 +166,131 @@
       },
       {
         "time": "17:00-18:00",
-        "title": "Symmetries in Physics",
-        "author": "Krzysztof Meissner",
+        "title": "Turing patterns in Mathematical Biology",
+        "author": "Szymon Cygan",
         "slides": ""
       },
       {
         "time": "18:30-19:30",
         "description": "Dinner"
+      }
+    ]
+  },
+  {
+    "day": "Friday 6 September",
+    "activities":
+    [
+      {
+        "time": "08:30-09:00",
+        "description": "Breakfast"
+      },
+      {
+        "time": "09:30-10:30",
+        "title": "A beautiful world beyond hyperbolic geometry: Anosov representations and higher Teichmüller spaces",
+        "author": "Anna Wienhard",
+        "slides": ""
+      },
+      {
+        "time": "10:45-11:45",
+        "description": "Coffee break"
+      },
+      {
+        "time": "11:30-10:30",
+        "title": "Decompositions and secant varieties",
+        "author": "Jarosław Buczyński",
+        "slides": "https://drive.google.com/file/d/13mZ6TmlN7WQBpQNlijAEH95D3zDKIP1y/view?usp=sharing"
+      },
+      {
+        "time": "13:00-14:00",
+        "description": "Lunch"
+      },
+      {
+        "time": "14:15-15:15",
+        "studentA": {"name": "Maksymilian Wesoły", "aff": "University of Warsaw", "title": "Grupa latarnika z wielkiej odległości, czyli krótki wstęp do wymiaru asymptotycznego"},
+        "studentC": {"name": "Natalia Jeszka", "aff": "University of Wrocław", "title": "Chodzenie po drzewach pętlowych"}
+      },
+      {
+        "time": "15:15-15:45",
+        "description": "Coffee break"
+      },
+      {
+        "time": "15:45-16:45",
+        "studentA": {"name": "Vincenzo Antonio Isoldi", "aff": "University of Trento", "title": "The Algebraic Geometry of Tensor Decomposition: Rank, Symmetry and Varieties"},
+        "studentC": {"name": "Wiktor Wichrowski", "aff": "University of Warsaw", "title": "Miary Younga i ich zastosowania"}
+      },
+      {
+        "time": "17:00-18:00",
+        "title": "Turing patterns in Mathematical Biology",
+        "author": "Szymon Cygan",
+        "slides": ""
+      },
+      {
+        "time": "18:30-19:30",
+        "description": "Dinner"
+      }
+    ]
+  },
+  {
+    "day": "Wednesday 4 September",
+    "activities":
+    [
+      {
+        "time": "08:30-09:00",
+        "description": "Breakfast"
+      },
+      {
+        "time": "09:30-10:30",
+        "title": "A beautiful world beyond hyperbolic geometry: Anosov representations and higher Teichmüller spaces",
+        "author": "Anna Wienhard",
+        "slides": ""
+      },
+      {
+        "time": "10:45-11:45",
+        "description": "Coffee break"
+      },
+      {
+        "time": "11:30-10:30",
+        "title": "Decompositions and secant varieties",
+        "author": "Jarosław Buczyński",
+        "slides": "https://drive.google.com/file/d/13mZ6TmlN7WQBpQNlijAEH95D3zDKIP1y/view?usp=sharing"
+      },
+      {
+        "time": "13:00-14:00",
+        "description": "Lunch"
+      },
+      {
+        "time": "14:15-15:15",
+        "studentA": {"name": "Maksymilian Wesoły", "aff": "University of Warsaw", "title": "Grupa latarnika z wielkiej odległości, czyli krótki wstęp do wymiaru asymptotycznego"},
+        "studentC": {"name": "Natalia Jeszka", "aff": "University of Wrocław", "title": "Chodzenie po drzewach pętlowych"}
+      },
+      {
+        "time": "15:15-15:45",
+        "description": "Coffee break"
+      },
+      {
+        "time": "15:45-16:45",
+        "studentA": {"name": "Vincenzo Antonio Isoldi", "aff": "University of Trento", "title": "The Algebraic Geometry of Tensor Decomposition: Rank, Symmetry and Varieties"},
+        "studentC": {"name": "Wiktor Wichrowski", "aff": "University of Warsaw", "title": "Miary Younga i ich zastosowania"}
+      },
+      {
+        "time": "17:00-18:00",
+        "title": "Turing patterns in Mathematical Biology",
+        "author": "Szymon Cygan",
+        "slides": ""
+      },
+      {
+        "time": "18:30-19:30",
+        "description": "Dinner"
+      }
+    ]
+  },
+  {
+    "day": "Saturday 7 September",
+    "activities":
+    [
+      {
+        "time": "08:30-09:00",
+        "description": "Breakfast"
       }
     ]
   }

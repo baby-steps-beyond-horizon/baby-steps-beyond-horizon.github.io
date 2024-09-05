@@ -3,6 +3,8 @@ function handle_buttons() {
   drop = document.getElementById('dropdown');
   drop_ctn = document.getElementById('dropdown-content');
 
+  btn_holder.hidden = false;
+
   holder_width = btn_holder.offsetWidth;
 
   btn_widths = [80, 90, 140, 135, 115, 140, 130];

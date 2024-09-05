@@ -26,6 +26,7 @@ function check_today (now_date, curr) {
 }
 
 function check_if_listed (curr) {
+  console.log(curr);
   for (let i = 0; i < interesting_dates.length; i++) {
     if (check_today(interesting_dates[i], curr)) return i+1;
   }

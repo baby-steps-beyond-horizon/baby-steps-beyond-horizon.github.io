@@ -40,8 +40,9 @@ footer {
   bottom: 0;
   background-color: #bdcbe1;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 
 footer > img {

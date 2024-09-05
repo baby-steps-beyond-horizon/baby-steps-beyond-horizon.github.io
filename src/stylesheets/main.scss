@@ -34,8 +34,9 @@ footer{
     background-color: colors.$very_light_blue;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center; //space-around;
     align-items: center;
+    gap: 30px;
 }
 
 footer > img {

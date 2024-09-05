@@ -43,4 +43,8 @@ li > i {
   color: #596e7f;
 }
 
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
 /*# sourceMappingURL=participants.css.map */

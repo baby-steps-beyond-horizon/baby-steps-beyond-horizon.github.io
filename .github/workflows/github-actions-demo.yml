@@ -20,3 +20,6 @@ jobs:
 
       - name: execute py script # run main.py
         run: python src/scripts/generate_html.py
+
+      - name: test
+        run: ls

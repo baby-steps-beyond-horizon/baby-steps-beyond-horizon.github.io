@@ -49,7 +49,7 @@
         <input type="button" value="Programme" onclick="location.href='programme.html';" id="4" class="active" style="width: 135px;">
         <input type="button" value="Speakers" id="5" style="width: 115px;">
         <input type="button" value="Participants" id="6" style="width: 140px;">
-        <input type="button" value="Committee" onclick="location.href='committee.html;'" id="3" style="width: 130px;">
+        <input type="button" value="Committee" onclick="location.href='committee.html'" id="3" style="width: 130px;">
     
 
         <div class="dropdown" id='dropdown'>
@@ -83,7 +83,7 @@
                 <td colspan="2">{{ a.description }} </td>
                
                 {% elif "title" in a %}
-                <td colspan="2">
+                <td colspan="2" class="author_title" onclick="document.getElementById('{{ a.author }}').hidden = !document.getElementById('{{ a.author }}').hidden;">
                 <b>{{ a.title }} 
                   {% if a.slides != "" %} 
                   <a href="{{ a.slides }}" target="_blank">[slides]</a> 
@@ -110,6 +110,21 @@
 
                 {% endif %}
             </tr>
+
+            {% if "title" in a %}
+            <tr>
+              <td></td>
+              <td colspan="2" class="abstract" id="{{ a.author }}" hidden="true">
+                <i>
+                  {% if a.abstract != "" %}
+                    {{ a.abstract }} 
+                  {% else %}
+                    Coming soon...
+                  {% endif %}
+                </i>
+              </td>
+            </tr>
+            {% endif %}
           {% endfor %}
         {% endfor %}
       </table>

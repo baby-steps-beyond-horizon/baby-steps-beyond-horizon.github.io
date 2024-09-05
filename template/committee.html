@@ -66,12 +66,12 @@ a {
     <div class="main_text">
       <h2>Scientific Committe</h2>
       {% for s in scientific %}
-      <p>{{ s.name }} <a href="mailto:{{ s.mail }}">({{ s.mail }})</a></p>
+      <p style="text-align: start;">{{ s.name }} <a href="mailto:{{ s.mail }}">({{ s.mail }})</a></p>
       {% endfor %}
       
       <h2>Organizing Committe</h2>
       {% for o in organizing %}
-      <p>{{ o.name }} <a href="mailto:{{ o.mail }}">({{ o.mail }})</a><br /></p>
+      <p style="text-align: start;">{{ o.name }} <a href="mailto:{{ o.mail }}">({{ o.mail }})</a><br /></p>
       {% endfor %}
     </div>
     <footer>

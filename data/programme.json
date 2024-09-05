@@ -21,7 +21,8 @@
         "time": "09:30-10:30",
         "title": "Compact and discrete quantum groups",
         "author": "Piotr M. Sołtan",
-        "slides": "https://drive.google.com/file/d/1HfE4hTmAxCjVUDKSp-hxTDtOQ7LVYRKt/view?usp=sharing"
+        "slides": "https://drive.google.com/file/d/1HfE4hTmAxCjVUDKSp-hxTDtOQ7LVYRKt/view?usp=sharing",
+        "abstract" : ""
       },
       {
         "time": "10:45-11:45",
@@ -31,7 +32,8 @@
         "time": "11:30-10:30",
         "title": "Model theory and differntial equations",
         "author": "Piotr Kowalski",
-        "slides": "https://drive.google.com/file/d/1aXuGWfbnbhfBfguQJ8qojL9J_oZqZaID/view?usp=sharing"
+        "slides": "https://drive.google.com/file/d/1aXuGWfbnbhfBfguQJ8qojL9J_oZqZaID/view?usp=sharing",
+        "abstract" : "After a brief introduction to model theory, I will discuss a general model-theoretic description of some differential equations whose solutions cannot be classical functions. I will focus on the Painlevé equations and the Schwarz equations. Time permitting, I will mention some connections between these types of problems and diophantine geometry. "
       },
       {
         "time": "13:00-14:00",
@@ -55,7 +57,8 @@
         "time": "17:00-18:00",
         "title": "Turing patterns in Mathematical Biology",
         "author": "Szymon Cygan",
-        "slides": ""
+        "slides": "",
+        "abstract" : ""
       },
       {
         "time": "18:30-19:30",
@@ -75,7 +78,9 @@
         "time": "09:30-10:30",
         "title": "Non local PDEs and potential theory",
         "author": "Mateusz Kwaśnicki",
-        "slides": ""
+        "slides": "",
+        "abstract" : ""
+
       },
       {
         "time": "10:45-11:45",
@@ -85,7 +90,8 @@
         "time": "11:30-10:30",
         "title": "Rigidity of convex surfaces in space forms",
         "author": "Francesco Bonsante",
-        "slides": "https://drive.google.com/file/d/1YGHiWtbtwA4O46ISJYEur3EHwx_lcgdc/view?usp=sharing"
+        "slides": "https://drive.google.com/file/d/1YGHiWtbtwA4O46ISJYEur3EHwx_lcgdc/view?usp=sharing",
+        "abstract" : ""
       },
       {
         "time": "13:00-14:00",
@@ -114,7 +120,8 @@
         "time": "17:00-18:00",
         "title": "Symmetries in Physics",
         "author": "Krzysztof Meissner",
-        "slides": ""
+        "slides": "",
+        "abstract" : ""
       },
       {
         "time": "18:30-19:30",
@@ -134,7 +141,8 @@
         "time": "09:30-10:30",
         "title": "A beautiful world beyond hyperbolic geometry: Anosov representations and higher Teichmüller spaces",
         "author": "Anna Wienhard",
-        "slides": ""
+        "slides": "",
+        "abstract" : ""
       },
       {
         "time": "10:45-11:45",
@@ -144,7 +152,8 @@
         "time": "11:30-10:30",
         "title": "Decompositions and secant varieties",
         "author": "Jarosław Buczyński",
-        "slides": "https://drive.google.com/file/d/13mZ6TmlN7WQBpQNlijAEH95D3zDKIP1y/view?usp=sharing"
+        "slides": "https://drive.google.com/file/d/13mZ6TmlN7WQBpQNlijAEH95D3zDKIP1y/view?usp=sharing",
+        "abstract" : ""
       },
       {
         "time": "13:00-14:00",
@@ -168,7 +177,8 @@
         "time": "17:00-18:00",
         "title": "Turing patterns in Mathematical Biology",
         "author": "Szymon Cygan",
-        "slides": ""
+        "slides": "",
+        "abstract" : ""
       },
       {
         "time": "18:30-19:30",
@@ -188,7 +198,8 @@
         "time": "09:30-10:30",
         "title": "A beautiful world beyond hyperbolic geometry: Anosov representations and higher Teichmüller spaces",
         "author": "Anna Wienhard",
-        "slides": ""
+        "slides": "",
+        "abstract" : ""
       },
       {
         "time": "10:45-11:45",
@@ -198,7 +209,8 @@
         "time": "11:30-10:30",
         "title": "Decompositions and secant varieties",
         "author": "Jarosław Buczyński",
-        "slides": "https://drive.google.com/file/d/13mZ6TmlN7WQBpQNlijAEH95D3zDKIP1y/view?usp=sharing"
+        "slides": "https://drive.google.com/file/d/13mZ6TmlN7WQBpQNlijAEH95D3zDKIP1y/view?usp=sharing",
+        "abstract" : ""
       },
       {
         "time": "13:00-14:00",
@@ -222,7 +234,8 @@
         "time": "17:00-18:00",
         "title": "Turing patterns in Mathematical Biology",
         "author": "Szymon Cygan",
-        "slides": ""
+        "slides": "",
+        "abstract" : ""
       },
       {
         "time": "18:30-19:30",
@@ -242,7 +255,8 @@
         "time": "09:30-10:30",
         "title": "A beautiful world beyond hyperbolic geometry: Anosov representations and higher Teichmüller spaces",
         "author": "Anna Wienhard",
-        "slides": ""
+        "slides": "",
+        "abstract" : ""
       },
       {
         "time": "10:45-11:45",
@@ -252,7 +266,8 @@
         "time": "11:30-10:30",
         "title": "Decompositions and secant varieties",
         "author": "Jarosław Buczyński",
-        "slides": "https://drive.google.com/file/d/13mZ6TmlN7WQBpQNlijAEH95D3zDKIP1y/view?usp=sharing"
+        "slides": "https://drive.google.com/file/d/13mZ6TmlN7WQBpQNlijAEH95D3zDKIP1y/view?usp=sharing",
+        "abstract" : ""
       },
       {
         "time": "13:00-14:00",
@@ -276,7 +291,8 @@
         "time": "17:00-18:00",
         "title": "Turing patterns in Mathematical Biology",
         "author": "Szymon Cygan",
-        "slides": ""
+        "slides": "",
+        "abstract" : ""
       },
       {
         "time": "18:30-19:30",

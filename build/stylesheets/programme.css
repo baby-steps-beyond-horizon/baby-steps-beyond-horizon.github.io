@@ -20,4 +20,17 @@
   color: #7e91b1;
 }
 
+td {
+  vertical-align: top;
+  font-size: 17;
+  height: 35px;
+  font-family: Bitter;
+}
+
+.abstract {
+  font-size: 13px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /*# sourceMappingURL=programme.css.map */

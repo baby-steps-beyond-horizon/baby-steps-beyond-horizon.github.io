@@ -1,4 +1,4 @@
-name: Scheduled data fetching
+name: Scheduled data fetching - participants, speakers
 run-name: ${{ github.actor }} fetching!
 on:
   schedule:

@@ -1,8 +1,11 @@
 name: Scheduled data fetching - participants, speakers
 run-name: ${{ github.actor }} fetching!
-on: [push,
+on:
   schedule:
-    - cron: '0,15,30,45 * * * *']
+    - cron: '0,15,30,45 * * * *'
+    push:
+      branches:
+        - main
 jobs:
   build:
     runs-on: ubuntu-latest

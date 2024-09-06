@@ -2,7 +2,7 @@ name: Scheduled data fetching
 run-name: ${{ github.actor }} fetching!
 on:
   schedule:
-    - cron: '35 * * * *'
+    - cron: '45 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -33,6 +33,7 @@ jobs:
       - name: execute py script # run main.py
         run: | 
           python src/scripts/update_participants.py
+          python src/scripts/update_speakers.py
           ./git_if_changes.sh
           # git add -A
           # git commit -m "getting participants"

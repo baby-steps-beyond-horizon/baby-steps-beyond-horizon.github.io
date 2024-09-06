@@ -1,5 +1,5 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} python working!!!
+name: HTML update
+run-name: ${{ github.actor }} made changes to html
 on: [push]
 jobs:
   build:

@@ -3,6 +3,7 @@ run-name: ${{ github.actor }} fetching!
 on:
   schedule:
     - cron: '0,15,30,45 * * * *'
+  [push]
 jobs:
   build:
     runs-on: ubuntu-latest

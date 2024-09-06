@@ -1,0 +1,48 @@
+@use 'colors';
+@use 'fonts';
+
+.author {
+  color: colors.$red;
+}
+
+.classroom {
+  color: colors.$blue;
+}
+
+td {
+  vertical-align: top;
+  font-size:17;
+  height: 35px;
+  font-family: Bitter;
+
+  color: colors.$dark;
+}
+
+.abstract {
+  font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+  color: colors.$dark_blue;
+
+  padding-bottom: 20px;
+}
+
+.author_title {
+  cursor: pointer;
+}
+
+.author_name {
+  font-size: 18px;
+  height: 20px;
+  color: colors.$dark !important;
+  text-align: center;
+}
+
+b {
+  color: colors.$dark !important;
+}
+
+.author_aff {
+  font-size: 13px;
+  height: 20px !important;
+}

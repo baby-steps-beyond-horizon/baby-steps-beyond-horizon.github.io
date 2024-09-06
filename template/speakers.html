@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="build/stylesheets/main.css">
   <link rel="stylesheet" href="build/stylesheets/calendar_html.css">
   <link rel="stylesheet" href="build/stylesheets/header.css">
-  <link rel="stylesheet" href="build/stylesheets/programme.css">
+  <link rel="stylesheet" href="build/stylesheets/speakers.css">
   <link rel="icon" href="logo_small.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,14 +73,12 @@
 
         <tr>
           <td class="author_name">
-            {{ s.name }}
+            <b><a href="{{ s.link }}" target="_blank">{{ s.name }}</a></b> <br />
+            <span class="author_aff">{{ s.affiliation }}</span>
           </td>
-          <td rowspan="2" class="author_title">
+          <td class="author_title">
             <b>{{ s.title }}</b>
           </td>
-        </tr>
-        <tr>
-          <td><i>{{ s.affiliation }}</i></td>
         </tr>
         <tr>
           <td colspan="2" class="abstract">

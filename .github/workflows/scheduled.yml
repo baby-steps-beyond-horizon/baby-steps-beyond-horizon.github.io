@@ -2,7 +2,7 @@ name: Scheduled data fetching - participants, speakers
 run-name: ${{ github.actor }} fetching!
 on:
   schedule:
-    - cron: '45 * * * *'
+    - cron: '0,15,30,45 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest

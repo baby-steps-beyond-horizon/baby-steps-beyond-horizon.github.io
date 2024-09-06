@@ -24,11 +24,14 @@ for hooman in bedleworeader:
     title = hooman['title']
     abstract = hooman['abstract']
 
+    url = hooman['link']
+
     sp.append({
         "name" : nsur, 
         "title" : title, 
         "abstract" : abstract, 
-        "affiliation" : full_aff
+        "affiliation" : full_aff,
+        "link" : url
         })
 
 

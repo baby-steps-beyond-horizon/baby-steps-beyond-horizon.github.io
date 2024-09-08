@@ -15,7 +15,7 @@ function handle_buttons() {
   btn_w = 0
   dropped = false;
   
-  for (let i = 0; i < 7; i++) {
+  for (let i = 0; i < 6; i++) {
     if (btn_w + btn_widths[i] + 30 < holder_width) {
       btn_lst.push(document.getElementById(i.toString()));
       btn_w += btn_widths[i] + 30;

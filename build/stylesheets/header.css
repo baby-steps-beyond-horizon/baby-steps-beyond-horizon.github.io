@@ -16,7 +16,7 @@
   width: 100%;
   height: 350px;
   background: url("bedlewo_design.svg");
-  background-size: 100%;
+  background-size: max(100%, 1500px);
   background-repeat: no-repeat;
   background-position: 50% 48%;
 }
@@ -39,6 +39,37 @@
   font-weight: bold;
   font-size: 40px;
   color: #f5a67e;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #c3cee9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+footer > img {
+  height: 80px;
+}
+
+p {
+  font-family: "Bitter";
+  font-size: 18px;
+  text-align: justify;
+  hyphens: auto;
+  color: #4b4e61;
+}
+
+a {
+  color: #546aa2;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=header.css.map */

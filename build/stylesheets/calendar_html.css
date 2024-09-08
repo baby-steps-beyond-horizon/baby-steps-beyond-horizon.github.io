@@ -24,24 +24,24 @@
   font-family: "Bitter";
   align: center;
   text-align: center;
-  color: #596e7f;
+  color: #2b2d40;
 }
 
 .month {
   font-family: "Archivo Black";
   font-size: 20px;
-  color: #4b4e61;
+  color: #2b2d40;
   padding-bottom: 10px;
 }
 
 .act-weekend {
   font-weight: 600;
-  background-color: #b45d61;
+  background-color: #f57e7e;
   color: #fbe8da;
 }
 
 .act {
-  background-color: #ffa243;
+  background-color: #f5a67e;
   color: #fbe8da;
   font-weight: 600;
 }
@@ -53,7 +53,7 @@
 
 .weekend {
   font-weight: 600;
-  color: #8d6365;
+  color: #b65757;
 }
 
 .prev {
@@ -65,7 +65,7 @@
 }
 
 .week-th {
-  color: #b45d61;
+  color: #f57e7e;
 }
 
 .arrows {
@@ -74,7 +74,7 @@
 }
 
 .arrows:hover {
-  color: #b45d61;
+  color: #f57e7e;
   cursor: pointer;
 }
 
@@ -91,14 +91,14 @@
 .inter {
   cursor: help;
   font-weight: 800;
-  background-color: #7e91b1;
-  color: #fbe8da;
+  background-color: #546aa2;
+  color: #c3cee9;
 }
 
 .inter.act {
   cursor: help;
   font-weight: 800;
-  background-color: #7e91b1;
+  background-color: #546aa2;
   color: #ffda93;
 }
 

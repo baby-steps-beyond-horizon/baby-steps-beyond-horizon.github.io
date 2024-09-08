@@ -16,14 +16,14 @@
 
   align: center;
   text-align: center;
-  color: colors.$dark_blue;
+  color: colors.$font_color;
 }
 
 .month {
   font-family: "Archivo Black";
   
   font-size: 20px;
-  color: colors.$dark;
+  color: colors.$font_color;
 
   padding-bottom: 10px;
 }
@@ -89,7 +89,7 @@
 
   font-weight: 800;
   background-color: colors.$blue;
-  color: colors.$light;
+  color: colors.$page_accent;
 }
 
 .inter.act {

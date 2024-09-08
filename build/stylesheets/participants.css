@@ -27,7 +27,7 @@ li {
 
 li:before {
   content: counter(li);
-  color: #b45d61;
+  color: #f57e7e;
   display: inline-block;
   width: 2em;
   margin-left: -1em;

@@ -1,0 +1,106 @@
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Dosis;
+  src: url(Dosis/Dosis.ttf);
+}
+@font-face {
+  font-family: Bitter;
+  src: url(Bitter/Bitter_Variable.ttf);
+}
+.navigation {
+  width: 100%;
+  height: 40px;
+  background-color: #2d2d42;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 250px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-family: "Archivo Black";
+  font-size: 18px;
+  color: #8a92a6;
+  margin-left: 20px;
+}
+
+.logo_image {
+  width: 43px;
+  height: 40px;
+  background-image: url("logo.svg");
+  background-size: auto 36px;
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+}
+
+.button_holder {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  width: calc(100% - 275px);
+  hegith: 40px;
+  margin-right: 10px;
+}
+
+.button_holder > .active {
+  color: #e8cd8e;
+  border-bottom: 6px solid #a6aec2;
+}
+
+.button_holder > .active:hover {
+  border-bottom: 6px solid #a6aec2;
+}
+
+input {
+  cursor: pointer;
+  height: 100%;
+  height: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 16px;
+  font-family: "Archivo Black";
+  background: none;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 6px solid #8a92a6;
+  color: #8a92a6;
+}
+
+input:hover {
+  border-bottom: 6px solid #a6aec2;
+  color: #adb8d2;
+}
+
+.dropdown {
+  position: relative;
+  display: none;
+  height: 40px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0px;
+  background-color: #4b4e61;
+  width: 140px;
+  z-index: 1;
+}
+
+.dropdown-content > input {
+  width: 140px !important;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*# sourceMappingURL=navigation.css.map */

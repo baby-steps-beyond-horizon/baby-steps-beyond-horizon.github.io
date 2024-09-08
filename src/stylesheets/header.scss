@@ -6,14 +6,11 @@
   height: 350px;
 
   
-  background: url("sunrise_vector_2.jpg");
+  background: url("bedlewo_design.svg");
   
-  background-size: auto 800px;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 50% -160px;
-  
-  background-color: colors.$dark;
-
+  background-position: 50% 48%;
 }
 
 .main_title {
@@ -26,7 +23,7 @@
   font-weight:bold;
   font-size:80px;
 
-  color: colors.$yellow;
+  color: colors.$title;
 }
 
 .subtitle {
@@ -39,109 +36,5 @@
   font-weight:bold;
   font-size:40px;
 
-  color: colors.$golden;
-}
-
-.navigation {
-  width:100%;
-  height: 40px;
-
-  background-color: colors.$dark;
-
-  display:flex;
-flex-direction: row;
-
-  justify-content: space-between;
-}
-
-.logo {
-  width: 250px;
-  height: 40px;
-
-  display: flex;
-  align-items: center;
-
-  font-family: "Archivo Black";
-  font-size: 18px;
-  color: colors.$blue;
-
-  margin-left: 20px;
-
-}
-
-.logo_image {
-  width: 43px;
-  height: 40px;
-
-  background-image: url("logo.svg");
-  background-size: auto 36px;
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-}
-
-.button_holder {
-  // width: calc(100% - 270px);
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  align-items: center;
-
-  width: calc(100% - 275px);
-  hegith: 40px;
-  margin-right: 10px;
-}
-
-
-.button_holder > .active {
-  border-bottom: 6px solid colors.$light_blue;
-}
-
-.button_holder > .active:hover {
-  border-bottom: 6px solid colors.$light_blue;
-}
-
-.dropdown {
-  position: relative;
-  display: none; //inline-block
-  height: 40px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: 0px;
-
-  background-color: colors.$dark;
-  width: 140px;
-  z-index: 1;
-}
-
-.dropdown-content > input {
-  width: 140px !important;
-}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-input {
-  cursor: pointer;
-  height: 100%;
-  height: 40px;
-
-  padding-right: 15px;
-  padding-left: 15px;
-
-  font-size: 16px;
-  font-family: "Archivo Black";
-
-  background: none;
-  border-radius: 0px;
-  border: none;
-  border-bottom: 6px solid colors.$dark_blue;
-
-  color: colors.$yellow;
-}
-
-input:hover {
-  border-bottom: 6px solid colors.$blue;
-  color: colors.$golden;
+  color: colors.$subtitle;
 }

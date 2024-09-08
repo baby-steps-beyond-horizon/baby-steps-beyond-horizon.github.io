@@ -1,0 +1,106 @@
+@use 'colors';
+@use 'fonts';
+
+.navigation {
+  width:100%;
+  height: 40px;
+
+  background-color: colors.$nav_back;
+
+  display:flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.logo {
+  width: 250px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+
+  font-family: "Archivo Black";
+  font-size: 18px;
+  color: colors.$nav_text;
+
+  margin-left: 20px;
+
+}
+
+.logo_image {
+  width: 43px;
+  height: 40px;
+
+  background-image: url("logo.svg");
+  background-size: auto 36px;
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+}
+
+.button_holder {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+
+  width: calc(100% - 275px);
+  hegith: 40px;
+  margin-right: 10px;
+}
+
+
+.button_holder > .active {
+  color: colors.$nav_accent;
+  border-bottom: 6px solid colors.$nav_active;
+}
+
+.button_holder > .active:hover {
+  border-bottom: 6px solid colors.$nav_active;
+}
+
+input {
+  cursor: pointer;
+  height: 100%;
+  height: 40px;
+
+  padding-right: 15px;
+  padding-left: 15px;
+
+  font-size: 16px;
+  font-family: "Archivo Black";
+
+  background: none;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 6px solid colors.$nav_text;
+
+  color: colors.$nav_text;
+}
+
+input:hover {
+  border-bottom: 6px solid colors.$nav_active;
+  color: colors.$nav_hover;
+}
+
+.dropdown {
+  position: relative;
+  display: none; //inline-block
+  height: 40px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0px;
+
+  background-color: colors.$dark;
+  width: 140px;
+  z-index: 1;
+}
+
+.dropdown-content > input {
+  width: 140px !important;
+}
+
+.dropdown:hover .dropdown-content {display: block;}

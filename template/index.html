@@ -1,70 +1,16 @@
-<!DOCTYPE html>
-<head>
-  <title>Baby Steps Beyond the Horizon</title>
-  <link rel="stylesheet" href="build/stylesheets/main.css">
-  <link rel="stylesheet" href="build/stylesheets/navigation.css">
+{% extends "base.html" %}
+{% block moreCSS %}
   <link rel="stylesheet" href="build/stylesheets/calendar_html.css">
-  <link rel="stylesheet" href="build/stylesheets/header.css">
-  <link rel="icon" href="logo_small.png">
+{% endblock %}
+{% block activeHOME %}class="active"{% endblock %}
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-
-  <script src="src/scripts/calendar.js"></script>
-  <script src="src/scripts/menu_handler.js"></script>
-
-  <meta charset="UTF-8" />
-</head>
-
-<body onload="print_calendar(0)">
-  <div class="holder">
-
-    <div class="main_header">
-
-      <div class="main_title">
-        BABY STEPS
-      </div>
-      <div class="subtitle">
-        beyond the horizon
-      </div>
-      
-    </div>
-
-    <div class="navigation">
-
-      <div class="logo">
-        <div class="logo_image"></div>
-        23-29 Aug. 2025
-      </div>
-
-      <div class="button_holder" id="btn-holder" hidden="true">
-        <input type="button" value="Home" onclick="location.href='index.html';" style="width: 85px;" id="0" class="active">
-        <input type="button" value="Poster" onclick="location.href='poster.html';" id="1" style="width:90px;">
-        <input type="button" value="Registration" onclick="location.href='registration.html';" id="2" style="width:140px;">
-        <input type="button" value="Committee" onclick="location.href='committee.html';" id="3" style="width: 130px;">
-        <input type="button" value="Programme" onclick="location.href='programme.html';" id="4" style="width: 135px;">
-        <input type="button" value="Speakers" id="5" onclick="location.href='speakers.html';" style="width: 115px;">
-        <input type="button" value="Participants" onclick="location.href='participants.html';" id="6" style="width: 140px;">
-    
-
-        <div class="dropdown" id='dropdown'>
-          <input type="button" value="More" id='more'>
-          <div class="dropdown-content" id='dropdown-content'>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="main_text">
-      <p>
+{% block mainText %}
+<p>
       The aim of the workshop is to prepare the next generation of mathematicians to boldly go where no one has gone before by showing them research frontiers in mathematics in a tangible and comprehensible way. It should reveal to students various possibilities for their research careers, both in terms of future research opportunities and the choice of potential thesis or postdoctoral advisors. The workshop will combine 15 expository lectures by senior speakers with presentations by participating students.
       </p>
 
       <div class="registration_holder">
-        <button class="registration" onclick="location.href='{{ reg_link }}';">
+        <button class="registration" onclick="window.open('{{ reg_link }}', '_blank')">
         REGISTER
       </button>
       </div>
@@ -91,7 +37,7 @@
           </colgroup>
             <tr>
               <th class="arrows" id="prev-month" onclick="print_calendar(-1)"><</th>
-              <th colspan="5" class="month" id="month">August</th>
+              <th colspan="5" class="month" id="month"></th>
               <th class="arrows" id="next-month" onclick="print_calendar(1)">></th>
             </tr>
             <tr>
@@ -114,12 +60,4 @@
         </div>
       </div>
     
-    </div>
-    <footer>
-      <img src="img/impan-logo.svg">
-      <img src="img/ptm-logo.png">
-      <img src="img/uwr-logo.svg">
-    </footer>
-  </div>
-
-</body>
+{% endblock %}

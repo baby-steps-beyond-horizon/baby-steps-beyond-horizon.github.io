@@ -7,7 +7,7 @@ function handle_buttons() {
 
   holder_width = btn_holder.offsetWidth;
 
-  btn_widths = [80, 90, 140, 135, 115, 140, 130];
+  btn_widths = [80, 90, 135, 115, 140, 130];
   more_width = 140;
   btn_lst = []
   drop_lst = []
@@ -47,6 +47,8 @@ function handle_buttons() {
   for (let i = 0; i < drop_lst.length; i++) {
     drop_ctn.append(drop_lst[i]);
   }
+
+  btn_holder.hidden = "false";
 
 }
 

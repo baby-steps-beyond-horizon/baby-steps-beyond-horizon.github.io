@@ -58,19 +58,3 @@ footer{
 footer > img {
   height: 80px;
 }
-
-p {
-  font-family: "Bitter";
-  font-size: 18px;
-  text-align: justify;
-  // text-justify: inter-word;
-  hyphens: auto;
-
-  color: colors.$dark;
-}
-
-a {
-  color: colors.$blue;
-  font-weight: 600;
-  text-decoration: none;
-}

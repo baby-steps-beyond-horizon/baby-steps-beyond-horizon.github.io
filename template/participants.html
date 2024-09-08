@@ -1,69 +1,11 @@
-<!DOCTYPE html>
-<head>
-  <title>Baby Steps Beyond the Horizon</title>
-  <link rel="stylesheet" href="build/stylesheets/main.css">
-  <link rel="stylesheet" href="build/stylesheets/calendar_html.css">
-  <link rel="stylesheet" href="build/stylesheets/header.css">
+{% extends "base.html" %}
+{% block moreCSS %}
   <link rel="stylesheet" href="build/stylesheets/participants.css">
-  <link rel="icon" href="logo_small.png">
+{% endblock %}
+{% block activePARTICIPANTS %}class="active"{% endblock %}
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-
-  <script src="src/scripts/calendar.js"></script>
-  <script src="src/scripts/menu_handler.js"></script>
-
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-
-  <meta charset="UTF-8" />
-
-</head>
-
-<body>
-  <div class="holder">
-
-    <div class="main_header">
-
-      <div class="main_title">
-        BABY STEPS
-      </div>
-      <div class="subtitle">
-        beyond the horizon
-      </div>
-      
-    </div>
-
-    <div class="navigation">
-
-      <div class="logo">
-        <div class="logo_image"></div>
-        23-29 Aug. 2025
-      </div>
-
-      <div class="button_holder" id="btn-holder" hidden="true">
-        <input type="button" value="Home" onclick="location.href='index.html';" style="width: 85px;" id="0">
-        <input type="button" value="Poster" onclick="location.href='poster.html';" id="1" style="width:90px;">
-        <input type="button" value="Registration" onclick="location.href='registration.html';" id="2" style="width:140px;">
-        <input type="button" value="Committee" onclick="location.href='committee.html';" id="3" style="width: 130px;">
-        <input type="button" value="Programme" onclick="location.href='programme.html';" id="4" style="width: 135px;">
-        <input type="button" value="Speakers" onclick="location.href='speakers.html';" id="5" style="width: 115px;">
-        <input type="button" value="Participants" onclick="location.href='participants.html';" id="6" style="width: 140px;" class="active">
-    
-
-        <div class="dropdown" id='dropdown'>
-          <input type="button" value="More" id='more' style="width:140px;">
-          <div class="dropdown-content" id='dropdown-content'>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="main_text">
-      <h2> Onsite participants </h2>
+{% block mainText %}
+    <h2> Onsite participants </h2>
       <ol>
         {% for p, a in onsite %}
         <li> {{ p }} (<i>{{ a }}</i>) </li>
@@ -76,12 +18,4 @@
         <li> {{ p }} (<i>{{ a }}</i>) </li>
         {% endfor %}
       </ol>
-    </div>
-    <footer>
-      <img src="img/impan-logo.svg">
-      <img src="img/ptm-logo.png">
-      <img src="img/uwr-logo.svg">
-    </footer>
-  </div>
-
-</body>
+{% endblock %}

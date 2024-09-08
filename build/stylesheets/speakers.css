@@ -29,19 +29,25 @@ td {
 }
 
 .abstract {
-  font-size: 15px;
+  font-size: 18px;
   text-align: justify;
   text-justify: inter-word;
   color: #596e7f;
-  padding-bottom: 20px;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 .author_title {
+  padding-top: 10px;
+  font-size: 22px;
   cursor: pointer;
 }
 
 .author_name {
-  font-size: 18px;
+  padding-top: 10px;
+  font-size: 22px;
   height: 20px;
   color: #4b4e61 !important;
   text-align: center;

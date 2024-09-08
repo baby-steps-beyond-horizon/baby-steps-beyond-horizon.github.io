@@ -7,8 +7,8 @@
 {% block mainText %}
   <table style="margin-left: auto; margin-right:auto; align: center; width: 80%; min-width: 300px; border: none; table-layout: fixed; font-family: "Bitter";">
     <colgroup>
-      <col style="width: 200px;" />
-      <col style="width: calc(100% - 200px);" />
+      <col style="width: 250px;" />
+      <col style="width: calc(100% - 250px);" />
     </colgroup>
         {% for s in speakers %}
 
@@ -22,7 +22,7 @@
           </td>
         </tr>
         <tr>
-          <td colspan="2" class="abstract" id="{{ s.name }}">
+          <td colspan="2" class="abstract" id="{{ s.name }}" hidden="true">
             {% if s.abstract != "" %}
               {{ s.abstract }}
             {% else %} 

@@ -58,18 +58,4 @@ footer > img {
   height: 80px;
 }
 
-p {
-  font-family: "Bitter";
-  font-size: 18px;
-  text-align: justify;
-  hyphens: auto;
-  color: #4b4e61;
-}
-
-a {
-  color: #546aa2;
-  font-weight: 600;
-  text-decoration: none;
-}
-
 /*# sourceMappingURL=header.css.map */

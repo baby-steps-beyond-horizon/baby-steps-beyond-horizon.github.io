@@ -70,3 +70,19 @@ tr {
   color: colors.$blue;
   background-color: colors.$page_accent;
 }
+
+p {
+  font-family: "Bitter";
+  font-size: 18px;
+  text-align: justify;
+  // text-justify: inter-word;
+  hyphens: auto;
+
+  color: colors.$dark;
+}
+
+a {
+  color: colors.$blue;
+  font-weight: 600;
+  text-decoration: none;
+}

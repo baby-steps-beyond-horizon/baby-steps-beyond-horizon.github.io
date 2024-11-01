@@ -19,9 +19,9 @@
       },
       {
         "time": "09:30-10:30",
-        "title": "Compact and discrete quantum groups",
-        "author": "Piotr M. Sołtan",
-        "slides": "https://drive.google.com/file/d/1HfE4hTmAxCjVUDKSp-hxTDtOQ7LVYRKt/view?usp=sharing",
+        "title": "",
+        "author": "",
+        "slides": "",
         "abstract" : ""
       },
       {
@@ -30,10 +30,10 @@
       },
       {
         "time": "11:30-10:30",
-        "title": "Model theory and differntial equations",
-        "author": "Piotr Kowalski",
-        "slides": "https://drive.google.com/file/d/1aXuGWfbnbhfBfguQJ8qojL9J_oZqZaID/view?usp=sharing",
-        "abstract" : "After a brief introduction to model theory, I will discuss a general model-theoretic description of some differential equations whose solutions cannot be classical functions. I will focus on the Painlevé equations and the Schwarz equations. Time permitting, I will mention some connections between these types of problems and diophantine geometry. "
+        "title": "",
+        "author": "",
+        "slides": "",
+        "abstract" : ""
       },
       {
         "time": "13:00-14:00",
@@ -41,8 +41,8 @@
       },
       {
         "time": "14:15-15:15",
-        "studentA": {"name": "Illaria Pellegrinelli", "aff": "University of Trento", "title": "Connecting the dots: Geometric data analysis applied to poin clouds"},
-        "studentC": {"name": "Natalia Jeszka", "aff": "University of Wrocław", "title": "Chodzenie po drzewach pętlowych"}
+        "studentA": {"name": "", "aff": "", "title": ""},
+        "studentC": {"name": "", "aff": "", "title": ""}
       },
       {
         "time": "15:15-15:45",
@@ -50,13 +50,13 @@
       },
       {
         "time": "15:45-16:45",
-        "studentA": {"name": "Vincenzo Antonio Isoldi", "aff": "University of Trento", "title": "The Algebraic Geometry of Tensor Decomposition: Rank, Symmetry and Varieties"},
-        "studentC": {"name": "Wiktor Wichrowski", "aff": "University of Warsaw", "title": "Miary Younga i ich zastosowania"}
+        "studentA": {"name": "", "aff": "", "title": ""},
+        "studentC": {"name": "", "aff": "", "title": ""}
       },
       {
         "time": "17:00-18:00",
-        "title": "Turing patterns in Mathematical Biology",
-        "author": "Szymon Cygan",
+        "title": "",
+        "author": "",
         "slides": "",
         "abstract" : ""
       },
@@ -76,8 +76,8 @@
       },
       {
         "time": "09:30-10:30",
-        "title": "Non local PDEs and potential theory",
-        "author": "Mateusz Kwaśnicki",
+        "title": "",
+        "author": "",
         "slides": "",
         "abstract" : ""
 
@@ -88,9 +88,9 @@
       },
       {
         "time": "11:30-10:30",
-        "title": "Rigidity of convex surfaces in space forms",
-        "author": "Francesco Bonsante",
-        "slides": "https://drive.google.com/file/d/1YGHiWtbtwA4O46ISJYEur3EHwx_lcgdc/view?usp=sharing",
+        "title": "",
+        "author": "",
+        "slides": "",
         "abstract" : ""
       },
       {

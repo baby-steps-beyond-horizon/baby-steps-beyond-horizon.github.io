@@ -16,7 +16,7 @@ try:
 
     index_cnt = template.render(reg_link = config_data['registration form'])
     
-    with open("index.html", mode="w", encoding="utf-8") as m:
+    with open("bedlewo/index.html", mode="w", encoding="utf-8") as m:
         m.write(index_cnt)
 except:
     print("error generating index.html file")
